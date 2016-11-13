@@ -1,0 +1,24 @@
+{
+  "name": "HungrySharks",
+  "version": "1.0.0",
+  "main": "hungry_sharks.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "engines": {
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandamfielding/hungry-sharks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "easeljs": "0.0.0",
+    "preload-js": "^0.6.3",
+    "webpack": "^1.13.3"
+  }
+}

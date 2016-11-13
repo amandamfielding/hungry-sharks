@@ -35,15 +35,13 @@ In addition to the webpack entry file, this project will have the following scri
 
 `game_view.js`: Stores the Game instance and the canvas context.
 
-`game.js`:  Keeps track of the current round and winning or losing.
-
-`round.js`: Holds the collection of sharks and keeps them in the dimensions of the space. Responsible for moving the objects, drawing the game, keeping track of which sharks have been fed.
+`game.js`:  Keeps track of the current round and winning or losing. Holds the collection of sharks and keeps them in the dimensions of the space. Responsible for moving the objects and drawing the game.. 
 
 `utils.js`: Handles vector math.
 
 `moving_object.js`: Parent class for things that move.
 
-`shark.js`: Inherits from moving_object. Will have the specific methods like changing colors when clicked and toggling fed.
+`shark.js`: Inherits from moving_object. Will have an attribute to keep track of if it is fed. Will have the methods like changing colors when clicked and toggling fed.
 
 
 ### Implementation Timeline

@@ -1,0 +1,105 @@
+h1, h2, h3, h4, html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  font-family: 'Overlock';
+}
+
+body {
+  margin-top: 15px;
+  background-image: url("http://res.cloudinary.com/dbsxgncvx/image/upload/c_scale,w_1200/v1479025742/Sand-Wallpaper-11_q2glg7.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 5px;
+  text-align: center;
+  color: #145182;
+  text-shadow: 0 0 2px darkgray;
+  font-weight: 700;
+}
+
+#canvas-and-controls {
+  opacity: .95;
+  width: 900px;
+  margin: auto;
+  box-shadow: 0 0 14px white;
+}
+
+.stats {
+  background-color: #efead5;
+  border: 1px solid darkgray;
+}
+
+.stats li {
+  padding: 15px;
+  border-right: 1px solid darkgray;
+}
+
+#round {
+  border-left: 1px solid darkgray;
+  width: 10%;
+  text-align: center;
+}
+
+#fish-box {
+  width: 30%;
+}
+
+#timer {
+  width: 5%;
+  text-align: center;
+}
+
+#canvas {
+  display: block;
+}
+
+#controls {
+  height: 50px;
+  background-color: #efead5;
+}
+
+.footer {
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #145182;
+  opacity: .9;
+}
+
+.footer li {
+  width: 30px;
+  margin: 5px 0px 5px 20px;
+}
+
+#ghkitty {
+  width: 36px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
