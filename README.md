@@ -22,7 +22,7 @@ In addition, this project will include:
 
 This app will have a single screen with the game board, game statistics, game controls, and nav links to my Github and LinkedIn. The game statistics will include a label for the current round, the timer, an 'About' modal, and the number of fish left to feed the sharks. The game controls will include play and pause buttons and a button to toggle the sound off or on. As a bonus, I will add speed controls.
 
-![wireframes](docs/wireframes.wireframe.png)
+![wireframes](docs/wireframes/wireframe.png)
 
 ### Architecture and Technologies
 This project will be implemented with the following technologies:
