@@ -1,14 +1,14 @@
-## Sharks & Minnows
+## Hungry Sharks
 
 ### Background
 
-Sharks and Minnows is a brain game designed to increase the users divided attention, or ability to multitask. Identical sharks swim around the screen in random directions and are fed by clicking on them. The user must wait three seconds in between clicks. There will be a timer to let the user know when they can feed a shark again and a the fed shark will temporarily glow green when it has been successfully fed. Each shark must be fed only once to move on the next level. In order to be successful, the user must stayed focused on which sharks they have already fed and which ones they have not. If they click on the same shark twice, the round is lost. With each level, another shark is added. The fist round has one, the second has two, and so on.
+Hungry Sharks is a brain game designed to increase the users divided attention, or ability to multitask. Identical sharks swim around the screen in random directions and are fed by clicking on them. The user must wait three seconds in between clicks. There will be a timer to let the user know when they can feed a shark again and a the fed shark will temporarily glow green when it has been successfully fed. Each shark must be fed only once to move on the next level. In order to be successful, the user must stayed focused on which sharks they have already fed and which ones they have not. If they click on the same shark twice, the round is lost. With each level, another shark is added. The fist round has one, the second has two, and so on.
 
 ### Functionality & MVP
 
 Users will be able to:
 
-- [ ] Start and pause the round
+- [ ] Start and pause the game and mute the music
 - [ ] Sharks swim around randomly and do not leave the frame
 - [ ] If a player tries to feed the same shark twice, the round is lost. If the player feeds them all once, the player moves on to the next round.
 - [ ] There is a timer that counts down to when the player can successfully feed sharks and feeding is disabled until the timer back to zero
@@ -22,7 +22,7 @@ In addition, this project will include:
 
 This app will have a single screen with the game board, game statistics, game controls, and nav links to my Github and LinkedIn. The game statistics will include a label for the current round, the timer, an 'About' modal, and the number of fish left to feed the sharks. The game controls will include play and pause buttons and a button to toggle the sound off or on. As a bonus, I will add speed controls.
 
-![wireframes][docs/wireframes]
+![wireframes](docs/wireframes.wireframe.png)
 
 ### Architecture and Technologies
 This project will be implemented with the following technologies:
