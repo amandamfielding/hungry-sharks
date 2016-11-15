@@ -28,7 +28,7 @@ This app will have a single screen with the game board, game statistics, game co
 This project will be implemented with the following technologies:
 
 - JavaScript and `jquery` for game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
+- `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the scripts.
 
 In addition to the webpack entry file, this project will have the following scripts:
