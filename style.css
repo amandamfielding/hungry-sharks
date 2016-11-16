@@ -17,7 +17,7 @@ span, article, footer, time, small {
 }
 
 body {
-  margin-top: 15px;
+  /*margin-top: 10px;*/
   background-image: url("http://res.cloudinary.com/dbsxgncvx/image/upload/c_scale,w_1200/v1479025742/Sand-Wallpaper-11_q2glg7.jpg");
   background-size: cover;
 }
@@ -33,7 +33,7 @@ h1 {
 #canvas-and-controls {
   opacity: .95;
   width: 900px;
-  margin: auto;
+  /*margin: auto;*/
   box-shadow: 0 0 14px white;
 }
 
