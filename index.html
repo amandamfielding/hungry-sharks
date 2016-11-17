@@ -7,20 +7,41 @@
       <link href="https://fonts.googleapis.com/css?family=Overlock:400,700" rel="stylesheet">
     </head>
     <body>
-      <!-- <h1>HUNGRY SHARKS</h1> -->
+      <h1>HUNGRY SHARKS</h1>
       <div id="canvas-and-controls">
-        <!-- <div id="stats-box">
+        <div id="stats-box">
           <ul class="stats">
             <li id="round">Round</li>
             <li id="fish-box">fish box</li>
             <li id="timer">timer</li>
           </ul>
-        </div> -->
+        </div>
         <canvas id="canvas"></canvas>
         <div class="controls">
-          <div class="about"
-            onclick="">
+          <div id="about">
             <img src="http://res.cloudinary.com/dbsxgncvx/image/upload/c_scale,w_200/v1479320947/download_341152_h2opoy.png" />
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span id="close">x</span>
+                <p>
+                  Clicky Balls is a brain game designed to increase the player's ability to multitask.
+                  <br/>
+                  <br/>
+                  How to play:
+                  <br/>
+                  <br/>
+                  Identical balls roam the screen in random directions and speeds.
+                  In order to be successful, the player must keep track of which balls they have already clicked and which ones they have not.
+                  Click each ball once to move on the next level. If the click was successful, it will temporarily glow green. If the players clicks on the same ball twice, the round is lost and the game will restart.
+                  With each level, another ball is added.
+                  <br/>
+                  <br/>
+                  Rules:
+                  <br/>
+                  <br/>
+                  The player must wait three seconds in between clicks for a click to successfully register. There will be a timer to let the user know when you can click again.</p>
+              </div>
+            </div>
           </div>
           <div class="pause"
             onclick="window.gameView.playPause()">
