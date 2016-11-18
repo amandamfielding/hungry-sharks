@@ -8,7 +8,7 @@ Hungry Sharks is a brain game designed to increase the users divided attention, 
 
 Users will be able to:
 
-- [ ] Start and pause the game and mute the music
+- [ ] Start and pause the game. Sounds can be muted.
 - [ ] Sharks "swim" around the screen in a seemingly random manner
 - [ ] If a player tries to feed the same shark twice, the round is lost. If the player feeds them all once, the player moves on to the next round.
 - [ ] There is a timer that counts down to when the player can successfully feed sharks and feeding is disabled until the timer back to zero
@@ -65,7 +65,6 @@ In addition to the webpack entry file, this project will have the following scri
 - There are controls for pause and play.
 - The number of fish are displayed and decrease with every successful click.
 - On entering the next round, a modal will alert the player and the label for the level number will change.
-- Sound can be turned on or off.
 
 ### Bonus features
 

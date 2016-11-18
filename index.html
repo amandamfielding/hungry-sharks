@@ -17,12 +17,34 @@
           </ul>
         </div>
         <canvas id="canvas"></canvas>
-        <audio id="soundEfx" src="pop.wav" style="display: none;"></audio>
+        <div id="wonLevel">
+          <div id="wonModal" class="modal">
+            <div class="modal-content-won">
+              <p>
+                You win! Click OK to start the next level.
+              </p>
+              <span id="ok">OK</span>
+            </div>
+          </div>
+        </div>
+        <div id="lost">
+          <div id="loseModal" class="modal">
+            <div class="modal-content-lose">
+              <p>
+                Sorry, you lost this time. You tried to feed the same shark twice. Please try again, the sharks are hungry!
+              </p>
+              <span id="playAgain">Play Again</span>
+            </div>
+          </div>
+        </div>
+        <audio id="soundEfx" src="sounds/bite.wav" style="display: none;"></audio>
+        <audio id="soundWon" src="sounds/tonight.mp3" style="display: none;"></audio>
+        <audio id="soundHello" src="sounds/hello.wav" style="display: none;"></audio>
         <div class="controls">
           <div id="about">
             <img src="http://res.cloudinary.com/dbsxgncvx/image/upload/c_scale,w_200/v1479320947/download_341152_h2opoy.png" />
             <div id="myModal" class="modal">
-              <div class="modal-content">
+              <div class="modal-content-about">
                 <span id="close">x</span>
                 <p>
                   Hungry Sharks is a brain game designed to increase the player's ability to multitask.
@@ -44,12 +66,23 @@
               </div>
             </div>
           </div>
-          <div class="pause"
-            onclick="window.gameView.playPause()">
+          <div id="pause">
             <img src="http://res.cloudinary.com/dbsxgncvx/image/upload/c_scale,h_200,w_200/v1479320463/play-pause_ssizw4.png"  />
+            <div id="pauseModal" class="modal">
+              <div class="modal-content-pause">
+                <p>
+                  PAUSED
+                </p>
+                <p>
+                  Are you new to Hungry Sharks? Please click the question mark to learn how to play. And remember, sharks are our friends.
+                </p>
+                <span id="play">
+                Back to the Game
+              </span>
+              </div>
+            </div>
           </div>
-          <div class="mute"
-            onclick="">
+          <div id="mute">
             <img src="http://res.cloudinary.com/dbsxgncvx/image/upload/v1479321178/17533-audio-control-button1-200x200_wfcg6n.png" />
           </div>
         </div>
