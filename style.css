@@ -14,7 +14,7 @@ span, article, footer, time, small {
   box-sizing: inherit;
   background: transparent;
   font-family: 'Overlock';
-  /*cursor: url("fish.cur"), auto;*/
+  /*cursor: url("img/fish.cur"), auto;*/
 }
 
 body {
