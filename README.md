@@ -4,7 +4,7 @@
 
 Hungry Sharks is a brain game designed to increase the users divided attention, or ability to multitask. Identical sharks swim around the screen in a random manner and are fed by clicking on them. Each shark must be fed only once to move on the next level. In order to be successful, the user must stayed focused on which sharks they have already fed and which ones they have not. If they click on the same shark twice, the round is lost. With each level, another shark is added. The fist level has three, the second has four, and so on.
 
-![image of game](docs/wireframes.png)
+![image of game](docs/wireframes/wireframe.png)
 
 ## Features & Implementation
 
