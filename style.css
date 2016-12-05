@@ -14,7 +14,7 @@ span, article, footer, time, small {
   box-sizing: inherit;
   background: transparent;
   font-family: 'Overlock';
-  /*cursor: url("img/fish.cur"), auto;*/
+  cursor: url("img/fish.cur.png"), auto;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 }
 
 h1 {
-  margin: 5px;
   text-align: center;
   color: #145182;
   text-shadow: 0 0 2px darkgray;
@@ -84,12 +83,12 @@ h1 {
 }
 
 .controls {
-  height: 70px;
+  height: 55px;
   background-color: #efead5;
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -126,7 +125,7 @@ ul {
 
 
 .controls img {
-  height: 50px;
+  height: 45px;
   width: auto;
 }
 
@@ -150,11 +149,16 @@ ul {
 
 .modal-content-about {
     background-color: #fefefe;
-    margin: 5% auto;
+    margin: 9% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
     font-size: 22px;
+    text-align: center;
+}
+
+.modal-content-about span {
+  font-size: 18px;
 }
 
 .modal-content-won {
@@ -205,10 +209,9 @@ ul {
 #close:focus {
     color: black;
     text-decoration: none;
-    cursor: pointer;
 }
 
-#ok, #playAgain, #play {
+#ok, #playAgain, #play, #backtogame {
     color: #aaa;
     font-size: 28px;
     font-weight: bold;
@@ -217,8 +220,8 @@ ul {
     padding: 5px 10px;
 }
 
-#ok:hover, #ok:focus, #playAgain:hover, #playAgain:focus, #play:hover, #play:focus {
+#ok:hover, #ok:focus, #playAgain:hover, #playAgain:focus, #play:hover, #play:focus,#backtogame:hover, #backtogame:focus {
     color: black;
     text-decoration: none;
-    cursor: pointer;
+    box-shadow: 0 0 4px black;
 }
