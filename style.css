@@ -97,7 +97,7 @@ h1 {
   bottom: 0;
   width: 100%;
   cursor: auto;
-  position: fixed;
+  position: absolute;
 }
 
 footer ul {
